@@ -1,0 +1,169 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+nav {
+    top:0%;
+    background-color: white;
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    letter-spacing: 2px;
+    position: fixed;
+    z-index: 5;
+
+}
+ nav p{
+    padding-right: 71%;
+ }
+
+.nav-bar {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav-bar li{
+    /* padding-right: 15px; */
+    justify-content: left;
+    padding-right: 10px;
+}
+li:hover {
+    cursor: pointer;
+    background-color:rgb(151, 150, 150);
+ 
+}
+
+.body h1{
+    position: absolute;
+    top:90%;
+    left:1.5%;
+    letter-spacing: 3px;
+    font-weight: normal;
+    color: grey;  
+}
+#about{
+    display: flex;
+    margin-top: 180px;
+}
+#about img{
+    margin-left: 15%;
+}
+
+#about .ab1{
+    margin-right: 10%;
+}
+.ab1 h1{
+    text-align: center;
+    font-weight: normal;
+    font-size: 40px;
+    letter-spacing: 2px;
+    padding: 3%;
+}
+.ab1 .a1{
+    text-align: center;
+    padding: 3%;
+    letter-spacing: 2px;
+}
+
+.ab1 .a2{
+    padding-left: 8%;
+    font-size: 18px;
+    line-height: 25px;
+    justify-content: flex-start;
+    text-wrap: wrap;
+}
+
+.ab1 .a3{
+    color:rgb(167, 165, 165);
+    padding-top: 3%;
+    padding-left: 8%;
+    text-wrap: wrap;
+    justify-content: flex-start;
+    line-height: 25px;
+    font-size: 19px;
+}
+
+
+#menu{
+    display: flex;
+    margin-top: 200px;
+    justify-content: left;
+    align-content: left;
+}
+
+#menu .sub-menu {
+    margin-left: 15%;
+    padding-right: 8%;
+   
+    /* line-height: 30px; */
+
+}
+.sub-menu h1{
+    text-align: center;
+    font-weight: normal;
+    font-size: 40px;
+    letter-spacing: 2px;
+    line-height: 20px;
+    padding: 3%;
+}
+.sub-menu h4{
+    padding: 15px;
+    letter-spacing: 3px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.text {
+    color: rgb(175, 172, 172);
+    padding-bottom: 10%;
+}
+
+#contact {
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-right: 15%;
+}
+#contact>h1 {
+    /* margin-left: 3%;     */
+    font-weight: 200;
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+
+#contact>.p1{
+    margin-top: 4%;
+}
+#contact > h3{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: rgb(52, 83, 52);
+}
+a{
+    text-decoration: none;
+}
+#contact>.p2{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color:lightgray;
+}
+#contact>.p3{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+#contact>input{
+    margin-top: 2%;
+    padding: 1%;
+    border: none;
+}
+
+#footer>p{
+    margin-top: 5%;
+    height: 80px;
+    background-color: lightgray;
+    text-align: center;
+    /* justify-content: end; */
+    align-content: center;
+    
+}
