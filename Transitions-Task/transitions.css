@@ -1,0 +1,104 @@
+*{
+    background-color: black;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+#nav {
+    top:0%;
+    display: flex;
+    border-bottom: 1px solid white;
+    
+}
+
+.gfg{
+    margin-top: 0.5%;
+    display: flex;
+    padding-right: 30%;
+}
+.gfg img{
+    padding-right: 4%;
+
+}
+.gfg input {
+        border: 1px solid green;
+        border-radius: 50px;
+        height: 25px;
+        width: 70%;
+}
+
+
+.sub_classes{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.sub_classes .courses{
+    padding-right: 6%;
+}
+
+.sub_classes .tutorial{
+    padding-right: 6%;
+}
+
+.sub_classes .practise{
+    padding-right: 6%;
+}
+
+.sub_classes .job{
+    padding-right: 6%;
+}
+
+
+/* transitions code starts here */
+
+/* nav2 common for courses,tutorials,practise,jobs */
+/* inner_nav is also common  */
+
+.nav2{
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    
+}
+
+/* inner_nav transitions code*/
+.inner_nav{
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor:pointer;   
+}
+.inner_nav p:hover {
+    color: green;
+}
+
+.inner_nav:hover .nav2{
+    display: block;
+}
+
+.sub-nav{
+    display: flex;
+    align-content: flex-start;
+    justify-content: space-between;
+    background-color: rgb(13, 13, 13);
+
+}
+
+.body{
+    margin-top: 5%;
+    text-align: center;
+}
+.body input{
+    height: 35px;
+    width:50%;
+    border-radius: 15px;
+}
+
+.nav2 p:hover a{
+    color:green
+}
+.practise p:hover {
+    color: green;
+}
