@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .box {
+        height: 300px;
+        width: 600px;
+        background-color: rgb(145, 106, 38);
+        position: absolute;
+        top: 22%;
+        left:34%;
+    }
+    .circle1 {
+        height: 106px;
+        width: 106px;
+        background-color:rgb(247, 243, 39);
+        border-radius: 50%;
+        position: absolute;
+        top:27%;
+        left:39%;
+        animation-name: sun;
+        animation-duration: 3s;
+        animation-delay: 1s;
+        animation-timing-function: ease;
+        animation-iteration-count: infinite;
+        animation-direction: normal;
+        box-shadow: 2px 2px 5px  yellow;
+    }
+    .circle2{
+        height: 100px;
+        width: 100px;
+        background-color: rgb(242, 167, 38);
+        border-radius: 50%; 
+        position: relative;
+        top:27%;
+        left:38%;
+    }
+
+    @keyframes sun {
+        from{
+            top:26%;
+            left: 37%;
+            color: rgb(219, 228, 51);
+            
+            
+        }
+        to{
+            top: 29%;
+            left:40%;
+            color: rgb(240, 221, 17);
+            
+        }
+        
+    }
+</style>
+
+<body bgcolor="black">
+    <div class="box">
+        <div class="circle1">
+        </div>
+        <div class="circle2">
+
+        </div>
+    </div>
+    
+</body>
+</html>
