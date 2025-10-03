@@ -1,0 +1,153 @@
+* {
+    background-color:white;
+    margin-top: 0;
+}
+
+.header{
+    position: fixed;
+    width: 100%;
+    top:0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.header p{
+    margin-top: 1%;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 40%;
+   
+    
+}
+
+.container_1{
+    margin-top: 5%;
+    margin-left: 150px;
+    height: auto;
+    /* width: fit-content;
+    height: min-content; */
+  
+    
+}
+.c1{
+    display: inline-block;
+    width:300px;
+    margin: 5px;
+    text-align: center;
+    overflow-y: auto;
+    height: 700px;
+
+}
+.c1 img{
+    
+    width: 100%;
+    height:500px;
+}
+
+.container_2{
+    margin-left: 150px;
+    margin-top: 50px;
+
+}
+.c2{
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+    margin:5px;
+    text-align: center;
+    overflow-y: auto;
+    height: 700px;
+
+}
+
+.c2 img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+.pages {
+    list-style: none;
+    justify-content: center;
+    margin-left: 45%;
+}
+.pages li{
+    
+    padding: 5px;
+    display: inline-block;
+}
+
+.main-2 .cs{
+    text-align: center;
+}
+
+.cs1{
+    margin-left: 6%;
+    margin-right: 6%;
+    text-justify: distribute-all-lines;
+    text-size-adjust: 15px;
+}
+
+.f1,.f2,.f3{
+    display: inline-block;
+}
+.f1 {
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: inline-block;
+    padding:0% 2% 0% 2%;
+    }
+
+.f2{
+    text-align: center;
+    margin-left: 4%;
+    /* margin-top: 10px; */
+    display: inline-block; 
+}
+
+.footer{
+    margin-top: 80px;
+}
+
+.footer{
+    display: flex;
+    margin-left: 100px;
+}
+.f1,.f2,.f3{
+    /* display: inline-block; */
+    width: 25%;
+    margin-left: 30px;
+}
+.sub1{
+    display: flex;
+
+}
+.sub1 img{
+    height: 50px;
+    width: 50px;
+    margin-top: 5px;
+}
+.sub1 p{
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+.tr span{
+    font-weight: lighter;
+    font-size: 15px;
+    background-color: gray;
+    color: white;
+    height: 20px;
+    margin-left: 5px;
+    padding:5px;
+    padding-bottom: 10px;
+    display:inline-block ;
+    width: 80px;
+    margin-bottom: 5px;
+    text-align: center;
+
+
+}
